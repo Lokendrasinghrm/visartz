@@ -1,0 +1,60 @@
+.logo{background-color: black;font-family: 'Quicksand', sans-serif;}
+.inc{line-height: 0px;}
+.inc p{font-size: 10px;}
+.about{background-color: black;}
+.about img{width: 18rem;}
+.game{font-family: 'Varela Round', sans-serif; width: 35%;}
+.slid{margin-top: 30px;}
+.ment{margin-top: 30px; font-family: 'Lato', sans-serif;}
+ hr{background-color: red; width: 50px; margin: 0 auto;}
+.Showcase{background-color: black;padding: 30px; margin-top: 50px;}
+.Showcase iframe{width: 80;}
+.team {background-color: black;padding: 30px;}
+.Recent{padding:30px;}
+.Recent span time{color: gray;}
+.CarinaSoftlabs{font-family: 'Quicksand', sans-serif;margin-top: 50px;}
+.CarinaSoftlabs button{background-color: white;border: 1px solid red;border-radius: 100px;}
+.developer img{width: 100px;padding: 10px;}
+.ver{writing-mode: vertical-rl;margin-bottom: 30px;display: block; word-spacing: 10px;}
+.Proj{line-height: 0px;}
+.proj p{font-size: 10px;}
+
+
+
+@media only screen and (max-width: 1200px){
+	.game {width: 45%;}
+	.Carina h2{font-size: 160%;}
+	.Carina p{font-size: 80%;}
+}
+@media only screen and (max-width: 991px){
+	 .about img{width: 15rem;}
+	 .CarinaSoftlabs h4{font-size: 22px; text-align: center;}
+	 .CarinaSoftlabs h2{width: 100%;font-size: 25px; text-align: center;}
+}
+
+@media only screen and (max-width: 767px){
+	.game p{font-size: 80%;}
+	.game h2{width: 130%; font-size: 150%;}
+	.Carina h2{font-size: 140%;}
+	.Carina p{font-size: 70%;}
+	.CarinaSoftlabs {}
+	.CarinaSoftlabs h4{font-size: 30px; text-align: center;}
+	.CarinaSoftlabs p{font-size: 13px;text-align: center;}
+	.CarinaSoftlabs h3{font-size: 30px; text-align: center;}
+	.CarinaSoftlabs h2{font-size: 15px; margin: 0 auto;padding: 20px}
+	.CarinaSoftlabs button{font-size: 10px; text-align: center;margin: 0 auto;}
+	.Showcase h3{font-size: 140%;}
+	
+}
+
+@media only screen and (max-width: 575px){
+	.logo h4,p{font-size: 80%;}
+	.about img{width: 13rem;}
+	.game p{font-size: 60%;}
+	.game h2{width: 130%; font-size: 100%;}
+	.ment h2{font-size: 120%;margin: 0 auto;}
+	.CarinaSoftlabs h4{font-size: 14px;}
+	.CarinaSoftlabs p{font-size: 10px;}
+	.CarinaSoftlabs h2{font-size: 10px;}
+	.Showcase h3{font-size: 100%;}
+}
